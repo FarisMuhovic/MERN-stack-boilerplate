@@ -17,5 +17,3 @@ require("./database/db");
 
 // * MiddleWare & Routes
 app.use(express.json());
-const api = require("./routes/api");
-app.use(api);
